@@ -1,6 +1,6 @@
 {
   "name": "glowup-tracker",
-  "homepage": "https://yassien279.github.io/glowup-tracker",
+ "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
