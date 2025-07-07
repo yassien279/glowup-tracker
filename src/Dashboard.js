@@ -40,7 +40,7 @@ function getProgress(profile) {
 
 export default function Dashboard({ profile }) {
   const [quote, setQuote] = useState("");
-  const [streak, setStreak] = useState(1); // Later, calculate this for real
+const [streak] = useState(0);
 
   useEffect(() => {
     setQuote(getRandomQuote());
